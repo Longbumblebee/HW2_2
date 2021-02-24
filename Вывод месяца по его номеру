@@ -1,0 +1,75 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HW2_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+
+        {
+        
+            Console.WriteLine("укажите порядковый номер месяца от 1 до 12");
+        
+            string mnthnbr = Console.ReadLine();
+            if (mnthnbr == "1")
+            {
+                Console.WriteLine("Январь");
+            }
+            if (mnthnbr == "2")
+            {
+                Console.WriteLine("феврал");
+            }
+            if (mnthnbr == "3")
+            {
+                Console.WriteLine("март");
+            }
+            if (mnthnbr == "4")
+            {
+                Console.WriteLine("апрель");
+            }
+            if (mnthnbr == "5")
+            {
+                Console.WriteLine("май");
+            }
+            if (mnthnbr == "6")
+            {
+                Console.WriteLine("июнь");
+            }
+            if (mnthnbr == "7")
+            {
+                Console.WriteLine("июль");
+            }
+            if (mnthnbr == "8")
+            {
+                Console.WriteLine("август");
+            }
+            if (mnthnbr == "9")
+            {
+                Console.WriteLine("сентяб");
+            }
+            if (mnthnbr == "10")
+            {
+                Console.WriteLine("октябрь");
+            }
+            if (mnthnbr == "11")
+            {
+                Console.WriteLine("ноябрь");
+            }
+            if (mnthnbr == "12")
+            {
+                Console.WriteLine("декабрь");
+            }
+            Console.ReadLine();
+
+
+
+
+
+        }
+    }
+    
+}
